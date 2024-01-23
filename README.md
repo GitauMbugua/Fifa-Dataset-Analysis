@@ -30,6 +30,7 @@ The analysis was conducted using the following tools and libraries:
      ```
 
 6. **[NumPy](https://numpy.org/install/):**
+   - NumPy was used for numerical operations and array manipulation.
    - NumPy is included in the Anaconda distribution. You can install it separately using pip:
      ```
      pip install numpy
