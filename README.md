@@ -3,6 +3,19 @@
 ## Overview
 This repository contains a comprehensive analysis of the FIFA dataset, exploring various aspects such as player demographics, distribution, and correlations between different attributes.
 
+## Dataset Information
+
+The analysis is based on the [FIFA 24 Player Stats Dataset](https://www.kaggle.com/datasets/rehandl23/fifa-24-player-stats-dataset) sourced from Kaggle. The dataset provides detailed information about football players around the world, including various attributes such as player,country,club, age, height, weight, skills, and more.
+
+### How to Download the Dataset
+
+1. Visit the [FIFA 24 Player Stats Dataset](https://www.kaggle.com/datasets/rehandl23/fifa-24-player-stats-dataset) page on Kaggle.
+
+2. Log in to your Kaggle account or sign up if you don't have one.
+
+3. Click on the "Download" button on the Kaggle dataset page to download the dataset as a ZIP file.
+
+
 ## Tools Used
 
 The analysis was conducted using the following tools and libraries:
