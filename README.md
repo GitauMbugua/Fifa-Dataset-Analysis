@@ -65,13 +65,11 @@ Before diving into the analysis, the dataset underwent a thorough cleaning and p
 
 1. **Handling Missing Values:**
    - Identified and addressed missing values in key columns using appropriate techniques such as imputation or removal.
-   ```python
-   
-
-
+  
+    
 2. **Data Type Conversion:**
    - Converted data types to ensure compatibility with analysis tools and to represent information accurately.
-
+   
 3. **Removing Duplicates:**
    - Checked for and removed any duplicate entries to maintain data integrity.
 
