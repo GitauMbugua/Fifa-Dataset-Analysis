@@ -1,5 +1,15 @@
 # FIFA Dataset Analysis
 
+- [Overview](#overview)
+- [Dataset Information](#dataset-information)
+  - [How to Download the Dataset](#how-to-download-the-dataset)
+- [Tools Used](#tools-used)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Analysis Highlights](#analysis-highlights)
+- [Limitation](#limitations)
+
+
+
 ## Overview
 This repository contains a comprehensive analysis of the FIFA dataset, exploring various aspects such as player demographics, distribution, and correlations between different attributes.
 
