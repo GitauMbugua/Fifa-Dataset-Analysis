@@ -125,10 +125,13 @@ Used histograms to get insights of the height, weight and age.
 - #### Age Distribution
   Found out that the oldest players in the dataset were 41 year and the youngest were 15.
 ![Age Distribution](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/age%20distribution.PNG)
+
+- #### Weight Distribution
+ ![Weight Distribution](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/weight%20distribution.PNG) 
   
 
 ### 2. Top 10 Countries with the Most Number of Players
-Identified and analyzed the top 10 countries with the highest number of football players in the dataset.
+Identified the top 10 countries with the highest number of football players in the dataset.
 
 ### 3. Distribution of Players Worldwide
 Visualized the geographical distribution of players worldwide, showcasing the representation of different countries in the dataset.
