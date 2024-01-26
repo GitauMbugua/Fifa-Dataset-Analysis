@@ -159,7 +159,13 @@ I used scatter plots to investigate the correlations.
 
 
 ### 6. Correlation between Different Skills
-Explore correlations between various football skills, uncovering patterns and relationships between different attributes.
+I explored correlations between various football skills, uncovering patterns and relationships between different attributes.
+I used scatter plots to investigate the correlations.
+I discovered that high rated players in the dataset tend to have high rated skills that complement each other. example: composure vs long pass
+The more the player is composed on the field, the higher their ability to send accurate long passes across the field 
+![Composure vs Longpass](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/corr-compvlong.PNG)
+
+
 
 ### 7. Top 10 Most Valuable and Least Valuable Players
 Identified the players with the highest and lowest market values, offering insights into the valuation of players in the dataset.
