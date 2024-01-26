@@ -64,20 +64,22 @@ The analysis was conducted using the following tools and libraries:
 Before diving into the analysis, the dataset underwent a thorough cleaning and preparation process to ensure the accuracy and consistency of the results. The following steps were taken:
 
 1. **Handling Missing Values:**
-   - Identified and addressed missing values in key columns. Found out that the 'markng' column had all 'null' values thus removed the whole column
+   - Identified and addressed missing values in key columns. Found out that the 'marking' column had all 'null' values thus removed the whole column
      ```python
      stats = stats.drop('marking',axis=1)
   
     
 2. **Data Type Conversion:**
-   - In the dataset the 'value' column was dtype-object but it contained numerical values. Therefore had to change it dtype-float.
+   - In the dataset the 'value' column was dtype-object but it contained numerical values. Therefore had to change it to dtype-float.
      ```python
-     # The numerical values in the 'value' column had the '$' sign and '.' character. First we remove the '$' sign and '.' before converting it to dtype-float 
+     # The numerical values in the 'value' column had the '$' sign and '.' character.
+     #First we remove the '$' sign and '.' before converting it to dtype-float 
       stats['value'] = stats['value'].str.replace('$','')
       stats['value'] = stats['value'].str.replace('.','')
      
      # Lets convert to float type
       stats['value'] = stats['value'].astype(float)
+     
     - After changing the data type, I changed the column name from 'value' to 'value($)' for readability
       ```python
       # Lets change the column name from 'value' - 'value($)'
@@ -87,11 +89,29 @@ Before diving into the analysis, the dataset underwent a thorough cleaning and p
 3. **Removing Duplicates:**
    - Checked for and removed any duplicate entries to maintain data integrity. Found that the dataset had 3 duplicated rows which I removed.
      ```python
+     # Lets drop the duplicated values
+      stats = stats.drop_duplicates()
      
      
-
 4. **Feature Engineering:**
    - Created a new column to enhance the dataset for more insightful analyses.
+     ```python
+     # add skill average column by calculatng average of relevant columns
+
+     # list of columns to exclude from average calcs
+      exclude_col = ['player','country','height','weight','age','club','value($)']
+      
+     # columns to include in the average calculations to
+      cols_to_average = [col for col in stats.columns if col not in exclude_col] # list comprehension for new list
+      
+     # calculate average for each player and assign to new 'rating' column
+      stats['rating'] = stats[cols_to_average].mean(axis=1)
+      
+     # Rescaling rate to be out of 100
+      max_rating = stats['rating'].max()
+      min_rating = stats['rating'].min()
+      
+      stats['rating'] = 100 * (stats['rating'] - min_rating) / (max_rating - min_rating)
 
 ## Analysis Highlights
 
