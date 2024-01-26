@@ -143,8 +143,9 @@ Analyzed the clubs with the most significant player presence and identified the 
 - #### Top 10 clubs most number of players.
   ![Top 10 Club](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/club(players).PNG)
 
-- #### Top 10 clubs most number of players. 
-
+- #### Top 10 clubs most valuable of players. 
+  I analyzed the top clubs wth the highest valued squad and found out the following:
+  ![Valiable Squad](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/club(rating).PNG)
 
 ### 5. Correlation between Age and Skill
 Investigated the correlation between players' age and their skill levels, providing insights into the relationship between age and performance.
