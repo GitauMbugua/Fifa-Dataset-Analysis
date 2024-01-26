@@ -149,9 +149,13 @@ Analyzed the clubs with the most significant player presence and identified the 
 
 ### 5. Correlation between Age and Skill
 Investigated the correlation between players' age and their skill levels, providing insights into the relationship between age and performance.
+I used scatter plots to investigate the correlations. 
 - #### Age vs Compusure
   I dicovered that as players gained more experience on the field, their composure on the ball also increased.
-  ![Age vs Compusure](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/corr-agevcomposure.PNG)   
+  ![Age vs Compusure](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/corr-agevcomposure.PNG)
+- #### Age vs Acceleration
+  I discovered that as players in the dataset grew older their acceleration decreased.
+  ![Age vs Acceleration](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/corr-agevaccelertion.PNG) 
 
 
 ### 6. Correlation between Different Skills
