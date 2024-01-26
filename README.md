@@ -39,20 +39,20 @@ The analysis was conducted using the following tools and libraries:
 
     
 
-4. **[Pandas](https://pandas.pydata.org/getting_started.html):**
+3. **[Pandas](https://pandas.pydata.org/getting_started.html):**
    - Pandas was utilized for cleaning, preprocessing, and exploring the dataset.
    - Pandas is included in the Anaconda distribution, but you can also install it separately using pip:
      ```
      pip install pandas
      ```
 
-5. **[Plotly](https://plotly.com/python/getting-started/):**
+4. **[Plotly](https://plotly.com/python/getting-started/):**
    - Plotly is a powerful visualization library for Python. You can install it using pip:
      ```
      pip install plotly
      ```
 
-6. **[NumPy](https://numpy.org/install/):**
+5. **[NumPy](https://numpy.org/install/):**
    - NumPy was used for numerical operations and array manipulation.
    - NumPy is included in the Anaconda distribution. You can install it separately using pip:
      ```
@@ -117,6 +117,11 @@ Before diving into the analysis, the dataset underwent a thorough cleaning and p
 
 ### 1. Distribution of Players' Height, Age, and Weight
 Explored the distribution of players' height, age, and weight, providing insights into the physical attributes of football players in the dataset.
+Used histograms to get insights of the height, weight and age.
+- #### 1 Height
+  Found out that most players in the dataset average a height of 181cm. The shortest player is 156cm while the tallest was 204 cm
+  ![Height Distribution]  
+  
 
 ### 2. Top 10 Countries with the Most Number of Players
 Identified and analyzed the top 10 countries with the highest number of football players in the dataset.
