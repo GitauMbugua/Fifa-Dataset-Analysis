@@ -132,7 +132,7 @@ Used histograms to get insights of the height, weight and age.
 
 ### 2. Top 10 Countries with the Most Number of Players
 Identified the top 10 countries with the highest number of football players in the dataset.
-![Top 10 Counties](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/club(players).PNG)
+![Top 10 Counties](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/most%20players.PNG)
 
 ### 3. Distribution of Players Worldwide
 Visualized the geographical distribution of players worldwide, I used a chloropleth map to showcase the representation of different countries in the dataset.
@@ -140,6 +140,11 @@ Visualized the geographical distribution of players worldwide, I used a chloropl
 
 ### 4. Top 10 Clubs with the Most Number of Players and Most Valuable Players
 Analyzed the clubs with the most significant player presence and identified the top players based on market value.
+- #### Top 10 clubs most number of players.
+  ![Top 10 Club](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/club(players).PNG)
+
+- #### Top 10 clubs most number of players. 
+
 
 ### 5. Correlation between Age and Skill
 Investigated the correlation between players' age and their skill levels, providing insights into the relationship between age and performance.
