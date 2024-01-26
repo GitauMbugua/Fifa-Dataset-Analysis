@@ -120,7 +120,7 @@ Explored the distribution of players' height, age, and weight, providing insight
 Used histograms to get insights of the height, weight and age.
 - #### 1 Height
   Found out that most players in the dataset average a height of 181cm. The shortest player is 156cm while the tallest was 204 cm
-  ![Height Distribution]  
+![Height Distribution](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/Height%20Distrbution.PNG)  
   
 
 ### 2. Top 10 Countries with the Most Number of Players
