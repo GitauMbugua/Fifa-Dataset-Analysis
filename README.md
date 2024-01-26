@@ -118,9 +118,13 @@ Before diving into the analysis, the dataset underwent a thorough cleaning and p
 ### 1. Distribution of Players' Height, Age, and Weight
 Explored the distribution of players' height, age, and weight, providing insights into the physical attributes of football players in the dataset.
 Used histograms to get insights of the height, weight and age.
-- #### 1 Height
+- #### Height Distribution
   Found out that most players in the dataset average a height of 181cm. The shortest player is 156cm while the tallest was 204 cm
-![Height Distribution](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/Height%20Distrbution.PNG)  
+![Height Distribution](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/Height%20Distrbution.PNG)
+
+- #### Age Distribution
+  Found out that the oldest players in the dataset were 41 year and the youngest were 15.
+![Age Distribution](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/age%20distribution.PNG)
   
 
 ### 2. Top 10 Countries with the Most Number of Players
