@@ -74,7 +74,7 @@ Before diving into the analysis, the dataset underwent a thorough cleaning and p
    - Checked for and removed any duplicate entries to maintain data integrity.
 
 4. **Feature Engineering:**
-   - Created new features, if necessary, to enhance the dataset for more insightful analyses.
+   - Created a new column to enhance the dataset for more insightful analyses.
 
 ## Analysis Highlights
 
