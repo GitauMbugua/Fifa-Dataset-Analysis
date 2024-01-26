@@ -132,6 +132,7 @@ Used histograms to get insights of the height, weight and age.
 
 ### 2. Top 10 Countries with the Most Number of Players
 Identified the top 10 countries with the highest number of football players in the dataset.
+![Top 10 Counties](https://github.com/GitauMbugua/Fifa-Dataset-Analysis/blob/main/images/club(players).PNG)
 
 ### 3. Distribution of Players Worldwide
 Visualized the geographical distribution of players worldwide, showcasing the representation of different countries in the dataset.
